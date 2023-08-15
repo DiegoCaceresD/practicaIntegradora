@@ -2,7 +2,8 @@ import { Router } from 'express';
 
 // Si queremos cambiar de persistencia - solo descomentar/comentar
 //import del service para Students. (Se puede probar con el service del file system o el de mongoose)
-import StudentService from '../services/filesystem/students.service.js';
+// import StudentService from '../services/filesystem/students.service.js';
+import StudentService from '../services/db/students.service.js';
 
 const router = Router();
 const studentService = new StudentService();

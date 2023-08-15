@@ -31,4 +31,4 @@ const studentsSchema = new mongoose.Schema({
     courses: arrayTypeSchemaNonUniqueRequired
 });
 
-export const studentModel = mongoose.model(collectionName, studentsSchema);
+export const studentsModel = mongoose.model(collectionName, studentsSchema);
